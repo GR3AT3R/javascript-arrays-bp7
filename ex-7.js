@@ -47,8 +47,10 @@ orders[2].creditCardType = "visa";
 let creditCardTypeOfBlindermann = orders[2].creditCardType;
 let productQuantityOfJoannet = orders[3].productQuantity;
 let totalPurchaseOfDary = orders[1].productPrice * orders[1].productQuantity;
+orders.splice(0, 1);
 
 console.log(isArray);
 console.log(creditCardTypeOfBlindermann);
 console.log(productQuantityOfJoannet);
 console.log(totalPurchaseOfDary);
+console.log(orders);
